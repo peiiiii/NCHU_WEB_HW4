@@ -1,0 +1,102 @@
+.more {
+    padding: 3px;
+    border: 1px solid black;
+    width: 200px;
+}
+
+.more-options {
+    font-size: 10pt;
+}
+
+#open {
+    margin-left: 13cm;
+    margin-right: 13cm;
+    cursor: pointer;
+    background:rgb(255,235,59);
+    color: black;
+    padding:5px ;
+}
+#leftfloat {
+  position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+  top: 50px;  /*設置垂直位置*/
+  background: #81D4FA;
+  padding: 10px 20px;
+  border-radius: 10px
+}
+#rightfloat {
+  position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+  bottom: 40px;
+  right: 10px; /*設置垂直位置*/
+  cursor: pointer;
+  background: #FFCCBC;
+  padding: 10px 20px;
+  border-radius: 10px
+}
+#right {
+float: right;
+}
+#one {
+    top: 30px;
+    right:140px;
+    background-color: #FFB74D;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#p{
+  top: 20px;
+  right:180px;
+  position: absolute;
+  color: #FFB74D;
+  font-size:30pt;
+  font-weight: bold;
+}
+
+#two {
+    top: 90px;
+    right: 60px;
+    background-color: #58D68D;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#e{
+  top: 80px;
+  right:100px;
+  position: absolute;
+  color:#58D68D;
+  font-size:30pt;
+  font-weight: bold;
+}
+
+#three {
+    top: 170px;
+    right: 0px;
+    background-color: #E59866;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#i{
+  top: 160px;
+  right:40px;
+  position: absolute;
+  color: #E59866;
+  font-size:30pt;
+  font-weight: bold;
+}
+
+form {
+    display: none;
+    padding-top:10px;
+    padding-bottom:10px;
+    border: 1px inset black;
+     max-width: 500px;
+
+}
+body {
+    background-color: rgb(236, 239, 241);
+}
